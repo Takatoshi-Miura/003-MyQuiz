@@ -27,7 +27,7 @@ class StartViewController: UIViewController {
             return
         }
         //問題文の取り出し
-        guard let questionData=QuestionDataManager.sharedInstance.nextQuestion() else{
+        guard let questionData = QuestionDataManager.sharedInstance.nextQuestion() else{
             //取得できずに終了
             return
         }

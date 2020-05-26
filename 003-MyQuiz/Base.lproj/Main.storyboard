@@ -113,11 +113,11 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="NG" translatesAutoresizingMaskIntoConstraints="NO" id="4lm-tZ-nGo">
-                                <rect key="frame" x="22" y="226" width="328" height="210"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NG" translatesAutoresizingMaskIntoConstraints="NO" id="4lm-tZ-nGo">
+                                <rect key="frame" x="20" y="146.5" width="335" height="354"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="OK" translatesAutoresizingMaskIntoConstraints="NO" id="hjL-Cv-MBZ">
-                                <rect key="frame" x="16" y="226" width="334" height="210"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OK" translatesAutoresizingMaskIntoConstraints="NO" id="hjL-Cv-MBZ">
+                                <rect key="frame" x="20" y="130" width="335" height="387"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -126,10 +126,14 @@
                             <constraint firstItem="FRL-Qj-IP2" firstAttribute="trailing" secondItem="rnV-Ds-oQs" secondAttribute="trailingMargin" id="8kw-q4-NLH"/>
                             <constraint firstItem="FRL-Qj-IP2" firstAttribute="leading" secondItem="8om-k7-0o6" secondAttribute="leading" id="Ax1-Ex-Wv5"/>
                             <constraint firstItem="hjL-Cv-MBZ" firstAttribute="centerY" secondItem="rnV-Ds-oQs" secondAttribute="centerY" id="FDs-l5-lkW"/>
+                            <constraint firstItem="4lm-tZ-nGo" firstAttribute="leading" secondItem="X86-uq-DVn" secondAttribute="leading" constant="20" id="GBF-T5-ZqU"/>
                             <constraint firstItem="8om-k7-0o6" firstAttribute="top" secondItem="FRL-Qj-IP2" secondAttribute="bottom" constant="8" id="K0j-YU-8WX"/>
                             <constraint firstItem="hjL-Cv-MBZ" firstAttribute="centerX" secondItem="rnV-Ds-oQs" secondAttribute="centerX" id="LBO-Ie-mMC"/>
                             <constraint firstItem="3cL-wT-Oy4" firstAttribute="leading" secondItem="FRL-Qj-IP2" secondAttribute="leading" id="Mpo-UE-ygJ"/>
+                            <constraint firstItem="hjL-Cv-MBZ" firstAttribute="leading" secondItem="X86-uq-DVn" secondAttribute="leading" constant="20" id="Nve-ke-jTC"/>
+                            <constraint firstItem="X86-uq-DVn" firstAttribute="trailing" secondItem="hjL-Cv-MBZ" secondAttribute="trailing" constant="20" id="Pem-D0-ltV"/>
                             <constraint firstItem="X86-uq-DVn" firstAttribute="trailing" secondItem="8om-k7-0o6" secondAttribute="trailing" constant="25" id="S7c-1v-Sqi"/>
+                            <constraint firstItem="X86-uq-DVn" firstAttribute="trailing" secondItem="4lm-tZ-nGo" secondAttribute="trailing" constant="20" id="Xbk-n2-BsI"/>
                             <constraint firstItem="3cL-wT-Oy4" firstAttribute="top" secondItem="X86-uq-DVn" secondAttribute="top" constant="51" id="Xuz-wa-zqL"/>
                             <constraint firstItem="4lm-tZ-nGo" firstAttribute="centerX" secondItem="rnV-Ds-oQs" secondAttribute="centerX" id="ZSt-KF-Lka"/>
                             <constraint firstItem="X86-uq-DVn" firstAttribute="bottom" secondItem="8om-k7-0o6" secondAttribute="bottom" constant="20" id="fSd-TF-ZNk"/>
@@ -162,7 +166,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="7nm-8u-kJG">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="7nm-8u-kJG">
                                 <rect key="frame" x="77" y="64" width="221" height="204"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正解率は" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rC3-l5-0Ik">
